@@ -1,0 +1,54 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  font-family: sans-serif;
+  
+}
+
+img {
+  max-width: 100%;
+}
+
+.banner{
+  background: linear-gradient(rgba(146, 141, 141, 0.75),rgba(119, 111, 111, 0.75)),url(../icons/hotel.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+
+.banner .logo {
+  width: 20vh;
+  height: 20vh;
+  padding-top: 1em;
+  padding-left: 1em;
+}
+
+
+
+.titulo{
+  text-align: center;
+  color: white;
+}
+
+.tel {
+  text-align: center;
+  padding-top: 160px;
+  color: aliceblue;
+}
+
+.datos {
+  color: white;
+}
+
+.subtitulo {
+  color: aliceblue;
+}
